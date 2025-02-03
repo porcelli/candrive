@@ -1,0 +1,10 @@
+# This file was automatically created by Apache KIE™ Sandbox. Please don't modify it.
+name: Quarkus
+iconUrl: >-
+  https://github.com/apache/incubator-kie-sandbox-quarkus-accelerator/raw/10.0.0/quarkus-logo.png
+gitRepositoryUrl: https://github.com/apache/incubator-kie-sandbox-quarkus-accelerator
+gitRepositoryGitRef: 10.0.0
+dmnDestinationFolder: src/main/resources/dmn
+bpmnDestinationFolder: src/main/resources/bpmn
+otherFilesDestinationFolder: src/main/resources/others
+appliedAt: '2025-02-03T21:35:27.357Z'
