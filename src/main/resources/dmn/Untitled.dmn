@@ -18,7 +18,7 @@
       <annotation name="Annotations" />
       <rule id="_471A63BF-0A03-4EA0-84D2-262CE7A3C7BB">
         <inputEntry id="_0BF94D7B-A26C-4C0D-8B6B-F3DC9A1C2704">
-          <text>&gt;= 16</text>
+          <text>&gt;= 18</text>
         </inputEntry>
         <outputEntry id="_AC0F2E38-B46E-4E0E-8DBF-1F4F39448DED">
           <text>&quot;yes&quot;</text>
@@ -29,7 +29,7 @@
       </rule>
       <rule id="_AE331ECA-E327-4A15-88DC-657CAFDAE86F">
         <inputEntry id="_AA6CCCAF-A168-4174-9567-BE30B62B6527">
-          <text>&lt; 16</text>
+          <text>&lt; 18</text>
         </inputEntry>
         <outputEntry id="_2FCA3287-28BB-45A3-B0E4-B0C1DF377B01">
           <text>&quot;no&quot;</text>
