@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<definitions xmlns="https://www.omg.org/spec/DMN/20230324/MODEL/" expressionLanguage="https://www.omg.org/spec/DMN/20230324/FEEL/" namespace="https://kie.org/dmn/_3CFC3C3A-808F-4196-BC53-E4886F42FB62" id="_01FEFFB9-409B-4F1C-9EF2-4DCBDA00E1F9" name="CanDrive" xmlns:dmndi="https://www.omg.org/spec/DMN/20230324/DMNDI/" xmlns:dc="http://www.omg.org/spec/DMN/20180521/DC/" xmlns:di="http://www.omg.org/spec/DMN/20180521/DI/" xmlns:kie="https://kie.org/dmn/extensions/1.0">
+<definitions xmlns="https://www.omg.org/spec/DMN/20230324/MODEL/" xmlns:dmndi="https://www.omg.org/spec/DMN/20230324/DMNDI/" xmlns:dc="http://www.omg.org/spec/DMN/20180521/DC/" xmlns:di="http://www.omg.org/spec/DMN/20180521/DI/" xmlns:kie="https://kie.org/dmn/extensions/1.0" expressionLanguage="https://www.omg.org/spec/DMN/20230324/FEEL/" namespace="https://kie.org/dmn/_3CFC3C3A-808F-4196-BC53-E4886F42FB62" id="_01FEFFB9-409B-4F1C-9EF2-4DCBDA00E1F9" name="CanDrive">
   <inputData name="Age" id="_37B42226-255D-4267-9E00-B48BC8E6DA86">
     <variable name="Age" id="_2BD4A2C6-14F2-430D-B9CD-F0D264861909" typeRef="number" />
   </inputData>
@@ -18,7 +18,7 @@
       <annotation name="Annotations" />
       <rule id="_1EA09C69-19BC-46A3-AE4D-6FD18709166B">
         <inputEntry id="_F8A78569-E69B-4AD2-ACBC-6C71DFF3FC7E">
-          <text>&gt;= 16</text>
+          <text>&gt;= 18</text>
         </inputEntry>
         <outputEntry id="_46616E74-12D9-4076-921C-8FEB549E5C68">
           <text>&quot;yes&quot;</text>
@@ -29,7 +29,7 @@
       </rule>
       <rule id="_7809C9C6-E642-4A2C-A996-2AE22E3A602A">
         <inputEntry id="_F549DFAC-2935-4346-97C2-5F9B77935E15">
-          <text>&lt; 16</text>
+          <text>&lt; 18</text>
         </inputEntry>
         <outputEntry id="_88DA4731-A2CB-42A8-8F06-EBFAD76B1794">
           <text>&quot;no&quot;</text>
