@@ -15,7 +15,7 @@
       <annotation name="Annotations" />
       <rule id="_20FB2774-CC4D-4A18-934F-1E1FE3C6202A">
         <inputEntry id="_0BA62012-E4C0-4641-A4F4-0DEE3379DDFD">
-          <text>&gt;=18</text>
+          <text>&gt;=16</text>
         </inputEntry>
         <outputEntry id="_DCA30CF5-CAD7-4FC1-919C-1FC5616E7ED4">
           <text>&quot;yes&quot;</text>
@@ -26,7 +26,7 @@
       </rule>
       <rule id="_F65254F9-26A8-4CDF-91A8-A59C66F88A8B">
         <inputEntry id="_B2C98E18-DD06-4F0A-89C7-583FC80592B2">
-          <text>&lt; 18</text>
+          <text>&lt; 16 </text>
         </inputEntry>
         <outputEntry id="_63F5E678-62E8-4D63-9A00-BB55CC8B7120">
           <text>&quot;no&quot;</text>
@@ -53,14 +53,14 @@
         </kie:ComponentsWidthsExtension>
       </di:extension>
       <dmndi:DMNShape id="_67115789-DB3E-487F-A800-1AE110026204" dmnElementRef="_8D1737BE-A27B-43B0-BC69-A777A4C74FB8" isCollapsed="false" isListedInputData="false">
-        <dc:Bounds x="460" y="200" width="160" height="80" />
+        <dc:Bounds x="320" y="200" width="160" height="80" />
       </dmndi:DMNShape>
       <dmndi:DMNShape id="_DB51BACB-B84E-4662-83C6-F975374F7678" dmnElementRef="_548A8DE6-2885-4EE1-B273-DB717155B4F9" isCollapsed="false" isListedInputData="false">
-        <dc:Bounds x="460" y="40" width="160" height="80" />
+        <dc:Bounds x="460" y="20" width="160" height="80" />
       </dmndi:DMNShape>
       <dmndi:DMNEdge id="_5AC17506-C264-4108-AF9A-F231B0846B60" dmnElementRef="_FE2D7592-D3F3-4144-961B-6A4805AAE041" sourceElement="_67115789-DB3E-487F-A800-1AE110026204" targetElement="_DB51BACB-B84E-4662-83C6-F975374F7678">
-        <di:waypoint x="540" y="240" />
-        <di:waypoint x="540" y="120" />
+        <di:waypoint x="400" y="240" />
+        <di:waypoint x="540" y="100" />
       </dmndi:DMNEdge>
     </dmndi:DMNDiagram>
   </dmndi:DMNDI>
