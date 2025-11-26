@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<definitions xmlns="https://www.omg.org/spec/DMN/20230324/MODEL/" expressionLanguage="https://www.omg.org/spec/DMN/20230324/FEEL/" namespace="https://kie.org/dmn/_EE69F58C-3515-490C-93BA-9A2A63A2AA93" id="_EF66D2CE-911D-4453-968B-29FE4DD87420" name="CanDrive" xmlns:dmndi="https://www.omg.org/spec/DMN/20230324/DMNDI/" xmlns:dc="http://www.omg.org/spec/DMN/20180521/DC/" xmlns:di="http://www.omg.org/spec/DMN/20180521/DI/" xmlns:kie="https://kie.org/dmn/extensions/1.0">
+<definitions xmlns="https://www.omg.org/spec/DMN/20230324/MODEL/" xmlns:dmndi="https://www.omg.org/spec/DMN/20230324/DMNDI/" xmlns:dc="http://www.omg.org/spec/DMN/20180521/DC/" xmlns:di="http://www.omg.org/spec/DMN/20180521/DI/" xmlns:kie="https://kie.org/dmn/extensions/1.0" expressionLanguage="https://www.omg.org/spec/DMN/20230324/FEEL/" namespace="https://kie.org/dmn/_EE69F58C-3515-490C-93BA-9A2A63A2AA93" id="_EF66D2CE-911D-4453-968B-29FE4DD87420" name="CanDrive">
   <decision name="Can Drive?" id="_548A8DE6-2885-4EE1-B273-DB717155B4F9">
     <variable name="Can Drive?" id="_44E22FC4-5A26-4CF2-9FE1-23F0F56933B0" typeRef="string" />
     <informationRequirement id="_FE2D7592-D3F3-4144-961B-6A4805AAE041">
@@ -15,7 +15,7 @@
       <annotation name="Annotations" />
       <rule id="_20FB2774-CC4D-4A18-934F-1E1FE3C6202A">
         <inputEntry id="_0BA62012-E4C0-4641-A4F4-0DEE3379DDFD">
-          <text>&gt;=16</text>
+          <text>&gt;=18</text>
         </inputEntry>
         <outputEntry id="_DCA30CF5-CAD7-4FC1-919C-1FC5616E7ED4">
           <text>&quot;yes&quot;</text>
@@ -26,7 +26,7 @@
       </rule>
       <rule id="_F65254F9-26A8-4CDF-91A8-A59C66F88A8B">
         <inputEntry id="_B2C98E18-DD06-4F0A-89C7-583FC80592B2">
-          <text>&lt; 16 </text>
+          <text>&lt; 18</text>
         </inputEntry>
         <outputEntry id="_63F5E678-62E8-4D63-9A00-BB55CC8B7120">
           <text>&quot;no&quot;</text>
