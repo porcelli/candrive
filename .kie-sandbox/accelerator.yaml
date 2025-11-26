@@ -1,0 +1,10 @@
+# This file was automatically created by Aletyx Playground. Please don't modify it.
+name: Decisions Profile
+iconUrl: >-
+  https://raw.githubusercontent.com/aletyx/sandbox-accelerators/refs/heads/main/quarkus-logo.png
+gitRepositoryUrl: https://github.com/aletyx/sandbox-accelerators.git
+gitRepositoryGitRef: dmn
+dmnDestinationFolder: src/main/resources/dmn
+bpmnDestinationFolder: src/main/resources/bpmn
+otherFilesDestinationFolder: src/main/resources/others
+appliedAt: '2025-11-26T22:21:58.722Z'
