@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<definitions xmlns="https://www.omg.org/spec/DMN/20230324/MODEL/" expressionLanguage="https://www.omg.org/spec/DMN/20230324/FEEL/" namespace="https://kie.org/dmn/_EE69F58C-3515-490C-93BA-9A2A63A2AA93" id="_EF66D2CE-911D-4453-968B-29FE4DD87420" name="CanDrive" xmlns:dmndi="https://www.omg.org/spec/DMN/20230324/DMNDI/" xmlns:dc="http://www.omg.org/spec/DMN/20180521/DC/" xmlns:di="http://www.omg.org/spec/DMN/20180521/DI/" xmlns:kie="https://kie.org/dmn/extensions/1.0">
+  <decision name="Can Drive?" id="_548A8DE6-2885-4EE1-B273-DB717155B4F9">
+    <variable name="Can Drive?" id="_44E22FC4-5A26-4CF2-9FE1-23F0F56933B0" typeRef="string" />
+    <informationRequirement id="_FE2D7592-D3F3-4144-961B-6A4805AAE041">
+      <requiredInput href="#_8D1737BE-A27B-43B0-BC69-A777A4C74FB8" />
+    </informationRequirement>
+    <decisionTable id="_019AD180-2879-4EC6-A121-E02E36C37B72" typeRef="string" hitPolicy="UNIQUE" label="Can Drive?">
+      <input id="_F804EA0D-A858-4803-BF3A-E524930D9C4E">
+        <inputExpression id="_C7B91B49-B0C8-4151-ACF4-66F81889EDD8" typeRef="number">
+          <text>Age</text>
+        </inputExpression>
+      </input>
+      <output id="_EC0C2508-F882-4455-ABAB-2AF5DE4998EC" />
+      <annotation name="Annotations" />
+      <rule id="_20FB2774-CC4D-4A18-934F-1E1FE3C6202A">
+        <inputEntry id="_0BA62012-E4C0-4641-A4F4-0DEE3379DDFD">
+          <text>&gt;=16</text>
+        </inputEntry>
+        <outputEntry id="_DCA30CF5-CAD7-4FC1-919C-1FC5616E7ED4">
+          <text>&quot;yes&quot;</text>
+        </outputEntry>
+        <annotationEntry>
+          <text>// Your annotations here</text>
+        </annotationEntry>
+      </rule>
+      <rule id="_F65254F9-26A8-4CDF-91A8-A59C66F88A8B">
+        <inputEntry id="_B2C98E18-DD06-4F0A-89C7-583FC80592B2">
+          <text>&lt; 16 </text>
+        </inputEntry>
+        <outputEntry id="_63F5E678-62E8-4D63-9A00-BB55CC8B7120">
+          <text>&quot;no&quot;</text>
+        </outputEntry>
+        <annotationEntry>
+          <text></text>
+        </annotationEntry>
+      </rule>
+    </decisionTable>
+  </decision>
+  <inputData name="Age" id="_8D1737BE-A27B-43B0-BC69-A777A4C74FB8">
+    <variable name="Age" id="_810D9A5E-8222-4FEE-B63F-F79AE496433D" typeRef="number" />
+  </inputData>
+  <dmndi:DMNDI>
+    <dmndi:DMNDiagram id="_FBEA51D1-95FE-494E-BD5B-00F5E6BF7E38" name="Default DRD" useAlternativeInputDataShape="false">
+      <di:extension>
+        <kie:ComponentsWidthsExtension>
+          <kie:ComponentWidths dmnElementRef="_019AD180-2879-4EC6-A121-E02E36C37B72">
+            <kie:width>60</kie:width>
+            <kie:width>118</kie:width>
+            <kie:width>118</kie:width>
+            <kie:width>240</kie:width>
+          </kie:ComponentWidths>
+        </kie:ComponentsWidthsExtension>
+      </di:extension>
+      <dmndi:DMNShape id="_67115789-DB3E-487F-A800-1AE110026204" dmnElementRef="_8D1737BE-A27B-43B0-BC69-A777A4C74FB8" isCollapsed="false" isListedInputData="false">
+        <dc:Bounds x="460" y="200" width="160" height="80" />
+      </dmndi:DMNShape>
+      <dmndi:DMNShape id="_DB51BACB-B84E-4662-83C6-F975374F7678" dmnElementRef="_548A8DE6-2885-4EE1-B273-DB717155B4F9" isCollapsed="false" isListedInputData="false">
+        <dc:Bounds x="460" y="40" width="160" height="80" />
+      </dmndi:DMNShape>
+      <dmndi:DMNEdge id="_5AC17506-C264-4108-AF9A-F231B0846B60" dmnElementRef="_FE2D7592-D3F3-4144-961B-6A4805AAE041" sourceElement="_67115789-DB3E-487F-A800-1AE110026204" targetElement="_DB51BACB-B84E-4662-83C6-F975374F7678">
+        <di:waypoint x="540" y="240" />
+        <di:waypoint x="540" y="120" />
+      </dmndi:DMNEdge>
+    </dmndi:DMNDiagram>
+  </dmndi:DMNDI>
+</definitions>
